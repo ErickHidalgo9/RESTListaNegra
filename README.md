@@ -28,7 +28,7 @@ Para coordinar acciones de respuesta ante fraudes, es útil tener disponible inf
   - Consultar ip: http://localhost:8090/restfraudes/api/v1/api-fraude/ip-informacion/131.72.212.0 
   - Banear ip: http://localhost:8090/restfraudes/api/v1/api-fraude/ip-baneada/131.72.212.0
 
-- Se puede visitar la Base de datos en memoria H2 una vez estando en ejecucion la REST API en el siguuiente enlace: http://localhost:8090/restfraudes/api/v1/api-fraude/h2-console
+- Se puede visitar la Base de datos en memoria H2 una vez estando en ejecucion la REST API en el siguiente enlace: http://localhost:8090/restfraudes/api/v1/api-fraude/h2-console
   - UserName: sa
   - Password: sa
 
