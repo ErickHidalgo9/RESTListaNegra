@@ -17,3 +17,14 @@ Para coordinar acciones de respuesta ante fraudes, es útil tener disponible inf
   - Información de paises: http://restcountries.eu/
   - Información sobre monedas: http//fixer.io/
 
+## Ejecucion
+
+- Para ejecutar la REST API:
+  1. Levantar EurekaServer
+  2. Posteriormente levantar la RESTListaNegra
+  3. Al final levantar el GatewayServer
+
+- Los endpoints para ejecutar en POSTMAN son los siguientes:
+  - Consultar ip: http://localhost:8090/restfraudes/api/v1/api-fraude/ip-informacion/131.72.212.0 
+  - Banear ip: http://localhost:8090/restfraudes/api/v1/api-fraude/ip-baneada/131.72.212.0
+
