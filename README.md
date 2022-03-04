@@ -30,4 +30,8 @@ Para coordinar acciones de respuesta ante fraudes, es útil tener disponible inf
 
 - Se puede visitar la Base de datos en memoria H2 una vez estando en ejecucion la REST API en el siguuiente enlace: http://localhost:8090/restfraudes/api/v1/api-fraude/h2-console
 
+UserName: sa
+Password: sa
+
+
 ![BD en memoria](https://user-images.githubusercontent.com/99521248/156703301-f8d3c226-1f68-4557-9f84-b09c2934177b.png)
